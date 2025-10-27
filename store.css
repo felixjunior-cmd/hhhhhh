@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    line-height: 1.10;
+    background-color: #c0d8e0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    
+    height: 200px;    
+    margin-left: 50px;
+}
+.shoe-start, .shoe-start1{
+    width: calc(30% - 35px);
+}
+img{
+    max-width: 250px;
+}
+.shoe{
+    background-color: #fff;
+    width: calc(80% - 20px);
+    height: 170px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 45px;
+    padding-left: 5px;
+    padding-right: 65px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2)
+}
+.shoe .shoe-start{
+    padding-right: 0px;
+}
+.btn1{
+    width: 80%;outline: none; border: none;               color: #fff;
+    margin-top: 10px;
+    font-weight: bold;        background-color: rgb(107, 19, 19);    border-radius: 5px;
+    padding: 15px;            text-align:center;
+}
+.btn2{
+    width: 80%;outline: none; border: none;               color: #fff;
+    margin-top: 10px;
+    font-weight: bold;        background-color: rgb(12, 55, 207);    border-radius: 5px;
+    padding: 15px;            text-align:center;
+}
+.btn3{
+    width: 80%;outline: none; border: none;               color: #fff;
+    margin-top: 10px;
+    font-weight: bold;        background-color: rgb(94, 94, 99);    border-radius: 5px;
+    padding: 15px;            text-align:center;
+}
+@media (max-width: 768px){
+    .shoe-start{     
+    width: calc(60px);
+  }
+.shoe-start1{
+    width: calc(100%);
+    margin-left: 0px;
+}
+.shoe{
+    width: calc(80%);}
+h1{
+    font-size: 25px;
+  }
+img{
+    max-width: 130px;
+  }
+.btn1, .btn2, .btn3{
+    padding: 5px;
+}
+}
